@@ -1,8 +1,12 @@
 body {
-    background-image: url('../img/pexels-max-andrey-sky-bg.jpg');
+    background-image: url('../img/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-h1 {
+h1,
+h2 {
     margin-left: 25px;
     color: white;
 }
