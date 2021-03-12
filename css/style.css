@@ -5,10 +5,15 @@ body {
     height: 100vh;
 }
 
+h1 {
+    font-size: 5em;
+    font-family: cursive;
+}
+
 h1,
 h2 {
     margin-left: 25px;
-    color: white;
+    color: pink;
 }
 
 .med-screen-text {
@@ -25,12 +30,24 @@ h2 {
     height: 100vh;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+    list-style: georgian;
+}
+
 @media (min-width: 400px) {
     body {
         background-image: url('../img/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+    }
+    h1,
+    h2 {
+        color: blue;
     }
     .overlay {
         background-color: green;
@@ -48,11 +65,17 @@ h2 {
     }
     .overlay {
         background-color: red;
-        opacity: 0.5;
+        opacity: 0.4;
         height: 100vh;
+    }
+    h1 {
+        font-family: fantasy;
     }
     .med-screen-text {
         display: grid;
+        justify-content: center;
+        align-items: center;
+        font-family: monospace;
     }
     .sm-screen-text {
         display: none;
