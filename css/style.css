@@ -1,5 +1,5 @@
 body {
-    background-image: url('../img/jason-beard-cap.jpg');
+    background-image: url('../img/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -19,20 +19,36 @@ h2 {
     display: none;
 }
 
+.overlay {
+    background-color: blue;
+    opacity: 0.5;
+    height: 100vh;
+}
+
 @media (min-width: 400px) {
     body {
-        background-image: url('../img/screaming-jnutt.jpg');
+        background-image: url('../img/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
+    }
+    .overlay {
+        background-color: green;
+        opacity: 0.5;
         height: 100vh;
     }
 }
 
 @media (min-width:769px) {
     body {
-        background-image: url('../img/cap-up-nostil.jpg');
+        background-image: url('../img/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
+    }
+    .overlay {
+        background-color: red;
+        opacity: 0.5;
         height: 100vh;
     }
     .med-screen-text {
@@ -48,10 +64,16 @@ h2 {
 
 @media (min-width: 1024px) {
     body {
-        background-image: url('../img/jason-beard-cap.jpg');
+        background-image: url('../img/roberto-nickson-5ui0tfMC5ts-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
+    }
+    .overlay {
+        background-color: purple;
+        opacity: 0.5;
+        height: 100vh;
+        color: black;
     }
     .lg-screen-text {
         display: grid;
